@@ -1,0 +1,11 @@
+{
+    "homepage": "http://gnutoolchains.com/arm-eabi/openocd/",
+    "version": "20180728",
+    "license": "GPL-2.0-only",
+    "url": "http://sysprogs.com/files/gnutoolchains/arm-eabi/openocd/OpenOCD-20180728.7z",
+    "hash": "6FB82815C58F472B3827AAABD5EE3EB690D5E8D831A51140D099AB1E25195FB3",
+    "extract_dir": "OpenOCD-20180728",
+    "bin": [
+        "bin/openocd.exe"
+    ]
+}
