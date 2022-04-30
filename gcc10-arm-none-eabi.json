@@ -1,8 +1,13 @@
 {
-    "homepage": "https://developer.arm.com/open-source/gnu-toolchain/gnu-rm",
-    "license": "GPL-3.0-only",
-    "version": "10-2020-q4-major",
-    "url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10-2020q4/gcc-arm-none-eabi-10-2020-q4-major-win32.zip",
-    "hash": "90057b8737b888c53ca5aee332f1f73c401d6d3873124d2c2906df4347ebef9e",
-    "env_add_path": "gcc-arm-none-eabi-10-2020-q4-major/bin"
+	"version": "10.3-2021.10",
+	"description": "Pre-built GNU toolchain for Arm Cortex-M and Cortex-R processors",
+	"homepage": "https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm",
+	"license": "GPL-3.0-only",
+	"url": "https://developer.arm.com/-/media/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-win32.zip",
+	"hash": "md5:2bc8f0c4c4659f8259c8176223eeafc1",
+	"extract_dir": "gcc-arm-none-eabi-10.3-2021.10",
+	"env_add_path": "bin",
+	"env_set": {
+			"TL_PATH": "$dir\\bin"
+	}
 }
